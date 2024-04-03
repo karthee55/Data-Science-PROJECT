@@ -6,7 +6,7 @@ import sqlite3
 
 #1 Connection to the database
 
-db="C:\Users\SANJAY\OneDrive\Documents\Devtown\SQL_query_IMDB Dataset_Analysis\movies.sqlite"
+db=#file path (movies.sqlite)
 conn=sqlite3.connect(db)
 cur=conn.cursor()
 
